@@ -2,28 +2,35 @@ body {
     text-align: center;
 }
 
-#box1 {
+#container {
+    border: 3px solid rgb(131, 88, 88);
+    width: 800px;
+    height: 300px;
+}
+
+div {
+    display: inline-block;
     height: 100px;
     width: 100px;
+    border: 1px solid black;
+}
+
+#box1 {
     background-color: red;
 }
+
 #box2 {
-    height: 100px;
-    width: 100px;
     background-color: grey;
 }
+
 #box3 {
-    height: 100px;
-    width: 100px;
     background-color: cyan;
 }
+
 #box4 {
-    height: 100px;
-    width: 100px;
     background-color: yellow;
 }
+
 #box5 {
-    height: 100px;
-    width: 100px;
     background-color: green;
 }
