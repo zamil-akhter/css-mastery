@@ -80,3 +80,18 @@ div {
 #box5 {
   background-color: green;
 }
+
+#outer-div {
+  height: 100px;
+  width: 100px;
+  background-color: cyan;
+  display: flex;
+  justify-content: center; /*Horizontally center main axis*/
+  align-items: center; /*Vertically center cross axis */
+}
+#inner-div {
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  /* align-self: center; */
+}
