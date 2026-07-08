@@ -5,9 +5,25 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-div{
-    height: 200px;
-    width: 200px;
+div {
+    height: 100px;
+    width: 100px;
     border: 1px solid black;
     display: inline-block;
+}
+
+#box2 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#box3 {
+    position: absolute;
+    top: 5px;
+}
+
+#box4 {
+    position: sticky;
+    top:0
 }
