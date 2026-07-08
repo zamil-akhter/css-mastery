@@ -4,11 +4,13 @@ body {
 
 #container {
     border: 3px solid rgb(131, 88, 88);
-    width: 800px;
-    height: 300px;
+    width: 400px;
+    height: 800px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: end;
 }
 
 div {
@@ -24,6 +26,7 @@ div {
 
 #box2 {
     background-color: grey;
+    height: 200px;
 }
 
 #box3 {
