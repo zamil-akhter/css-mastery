@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+#box1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+#box2 {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+}
+#box3 {
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+}
+#box4 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+#box5 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
