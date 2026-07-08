@@ -6,6 +6,9 @@ body {
     border: 3px solid rgb(131, 88, 88);
     width: 800px;
     height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 div {
