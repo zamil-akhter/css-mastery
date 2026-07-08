@@ -29,6 +29,11 @@ a {
   color: black;
 }
 
+a:hover {
+  text-decoration: none;
+  color: rgb(227, 8, 8);
+}
+
 li {
   list-style-type: none;
   text-align: left;
