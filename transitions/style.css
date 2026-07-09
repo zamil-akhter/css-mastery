@@ -1,0 +1,19 @@
+.btn {
+  background: #0b74de;
+  color: #fff;
+  padding: 0.6rem 0.9rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition-property: all;
+  transition-duration: 2s;
+}
+
+.btn:hover {
+  background: pink;
+  color: #0b74de;
+}
+
+.btn:active {
+  background: rgb(247, 5, 45);
+  color: #fff;
+}
