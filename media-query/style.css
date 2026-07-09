@@ -1,0 +1,23 @@
+#div-media-query {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+@media (width : 600px) {
+    #div-media-query {
+        background-color: black;
+    }
+}
+
+@media (min-width : 601px) and (max-width:800px) {
+    #div-media-query {
+        background-color: rgb(11, 7, 232);
+    }
+}
+
+@media (min-width : 801px) {
+    #div-media-query {
+        background-color: green;
+    }
+}
