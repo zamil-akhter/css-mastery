@@ -1,10 +1,16 @@
-#transform-div{
-    height: 200px;
-    width: 200px;
-    background-color: pink;
-    margin-left: 200px;
-    margin-top: 100px;
-    transform: rotate(45deg);
-    /* transform: rotateX(80deg); */
-    /* transform: rotateY(70deg); */
+#transform-div {
+  height: 200px;
+  width: 200px;
+  background-color: pink;
+  margin-left: 200px;
+  margin-top: 100px;
+  transform: rotate(45deg);
+  /* transform: rotateX(80deg); */
+  /* transform: rotateY(70deg); */
+
+  /* transform: scale(2); */
+  /* transform: scaleX(2); */
+  /* transform: scaleY(2); */
+
+  transform: scale(3, 1); /*on x axis 3x and on y axis same*/
 }
