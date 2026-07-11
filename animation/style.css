@@ -1,22 +1,25 @@
 #animation-div {
-    position: relative;
-    height: 150px;
-    width: 150px;
-    background-color: #cfff74;
-    color: #2f3a1d;
-    animation-name: div-animation;
-    animation-duration: 2s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color: #cfff74;
+  color: #2f3a1d;
+  animation-name: div-animation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @keyframes div-animation {
-    from {
-        left: 0px;
-    }
+  from {
+    left: 0px;
+  }
 
-    to {
-        left: 200px;
-    }
+  to {
+    left: 200px;
+    background-color: pink;
+    color: white;
+  }
 }
