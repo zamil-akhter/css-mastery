@@ -9,22 +9,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation-name: loader-animation;
-  animation-duration: 2s;
+  /* animation-name: loader-animation;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
+  animation-timing-function: ease-in; */
+  animation: loader-animation 1.5s ease-in-out 0.5s infinite normal;
 }
 
 @keyframes loader-animation {
-  0% {
+  from {
     transform: rotate(0deg);
   }
-  25% {
-    transform: rotate(90deg);
-  }
-  50% {
-    transform: rotate(180deg);
-  }
-  100% {
+  to {
     transform: rotate(360deg);
   }
 }
