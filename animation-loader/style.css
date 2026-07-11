@@ -1,0 +1,30 @@
+#outer-div {
+  width: 150px;
+  height: 150px;
+  margin: 200px 400px;
+  background-color: white;
+  border-radius: 50%;
+  border: 20px solid #ffe66d;
+  border-top: 20px solid #4ecdc4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: loader-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes loader-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
